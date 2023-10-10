@@ -1,0 +1,25 @@
+.timeisup {
+    font-size: 75px;
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    margin: 10px 0;
+    text-shadow: 2px 2px 4px rgb(0, 195, 255); /* Add text shadow */
+  }
+
+  .go-back-button:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+
+  .go-back-button.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+
+  .go-back-button {
+    font-size: 18px;
+    position: absolute;
+    right: 560px;
+    bottom: 200px;
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgb(0, 195, 255); /* Add text shadow */
+  }

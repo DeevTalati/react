@@ -1,0 +1,46 @@
+   .alarm-input {
+    font-size: 150px;
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    margin: 10px 0;
+    text-shadow: 2px 2px 4px rgb(0, 195, 255);
+  }
+  
+  .alarm-field {
+    width: 300px;
+    background-color: #222;
+    color: #fff;
+    border: none;
+    font-size: inherit;
+    font-family: inherit;
+    text-align: center;
+    margin: 0 5px;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    text-shadow: 2px 2px 4px rgb(0, 195, 255); /* Add text shadow */
+  }
+
+  .alarm-button:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+
+  .alarm-button.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+
+  .alarm-button {
+    font-size: 18px;
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgb(0, 195, 255); /* Add text shadow */
+  }
+  
+  .alarm-text {
+    font-size: 150px;
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgb(0, 195, 255);
+    margin-top: 10px;
+    text-shadow: 2px 2px 4px rgb(0, 195, 255); /* Add text shadow */
+  }
+  

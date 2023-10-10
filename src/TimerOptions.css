@@ -1,0 +1,47 @@
+.timer-options-container {
+    display: flex;
+  }
+  
+  .timer-navigation {
+    position: absolute;
+    top: 20px;
+    left: 170px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgb(0, 195, 255); /* Add text shadow */
+    margin: 10px 10px;
+    font-size: 18px;
+  }
+
+  .timer-navigation button:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+
+  .timer-navigation button.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+
+  .timer-navigation button {
+    margin-bottom: 8px;
+    margin-left: 200px;
+    padding: 15px 20px;
+    font-size: 18px;
+    background-color: rgb(46, 44, 44);
+    cursor: pointer;
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgb(0, 195, 255); /* Add text shadow */
+  }
+  
+  .timer-navigation button.active {
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgb(0, 195, 255); /* Add text shadow */
+  }
+  
+  .selected-option {
+    padding: 16px;
+  }
+  

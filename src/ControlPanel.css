@@ -1,0 +1,116 @@
+.control-panel {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .card {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 200px;
+  }
+
+  .card label {
+    margin-top:1px; /* Adjust the margin as needed */
+    display: block; /* Display the label as block element */
+  }
+
+  .light-card{
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    height: 500px;
+    width: 1000px;
+  }
+  
+  .slider-container {
+    width: 150px;
+    height: 400px;
+  }
+  
+  .slider-vertical input[type="range"] {
+    transform: rotate(0deg);
+    width: 20px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    /* Additional styles */
+    appearance: slider-vertical; /* Firefox compatibility */
+    background: #ddd; /* Track color */
+  }
+  
+  .slider-vertical input[type="range"]::-webkit-slider-thumb {
+    transform: rotate(90deg);
+    width: 20px; /* Adjust the width of the thumb */
+    height: 20px; /* Adjust the height of the thumb */
+    background: #ccc; /* Color of the thumb */
+    border: none;
+  }
+  
+  .slider-vertical input[type="range"]::-webkit-slider-runnable-track {
+    transform: rotate(0deg);
+    height: 20px; /* Adjust the height of the track */
+    background-color: transparent;
+    border: none;
+  }
+  
+  .brightness-slider-vertical input[type="range"] {
+    transform: rotate(0deg);
+    width: 20px; /* Adjust the width as needed */
+    height: 250px; /* Adjust the height as needed */
+    /* Additional styles */
+    appearance: slider-vertical; /* Firefox compatibility */
+    background: #ddd; /* Track color */
+  }
+  
+  .brightness-slider-vertical input[type="range"]::-webkit-slider-thumb {
+    transform: rotate(90deg);
+    width: 20px; /* Adjust the width of the thumb */
+    height: 20px; /* Adjust the height of the thumb */
+    background: #ccc; /* Color of the thumb */
+    border: none;
+  }
+  
+  .brightness-slider-vertical input[type="range"]::-webkit-slider-runnable-track {
+    transform: rotate(0deg);
+    height: 20px; /* Adjust the height of the track */
+    background-color: transparent;
+    border: none;
+  }
+
+  .light-toggle {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  .light-toggle.on {
+    background-color: #ffc800;
+    align-items: center;
+  }
+  
+  .light-toggle.off {
+    background-color: #aaa;
+    align-items: center;
+  }
+  
+  .custom-font {
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgb(0, 195, 255); /* Add text shadow */
+  }
+
+  .custom-font-label {
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgb(0, 195, 255); /* Add text shadow */
+  }
+  

@@ -1,0 +1,68 @@
+.timer-container {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .start-button:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+
+  .start-button.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+
+  .stop-button:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+
+  .stop-button.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+
+  .reset-button:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+
+  .reset-button.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+
+  .start-button {
+    position: absolute;
+    bottom: 200px;
+    left: 500px;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgb(0, 195, 255); /* Add text shadow */
+  } 
+
+  .stop-button {
+    position: absolute;
+    bottom: 200px;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgb(0, 195, 255); /* Add text shadow */
+  }
+
+  .reset-button {
+    position: absolute;
+    bottom: 200px;
+    right: 500px;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgb(0, 195, 255); /* Add text shadow */
+  }
+
+  .timer {
+    font-size: 150px;
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    margin: 10px 0;
+    text-shadow: 2px 2px 4px rgb(0, 195, 255); /* Add text shadow */
+  }
